@@ -1,0 +1,20 @@
+{
+  "name": "rspack-chunk-group-parents-iterable-missing",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "packageManager": "pnpm@12.21.0",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "repro": "RSPACK=1 node build.mjs",
+    "repro:official": "node build.mjs",
+    "show": "RSPACK=1 SHOW=1 node build.mjs",
+    "show:official": "SHOW=1 node build.mjs"
+  },
+  "devDependencies": {
+    "@rspack/core": "2.3.2",
+    "webpack": "5.112.2"
+  }
+}
