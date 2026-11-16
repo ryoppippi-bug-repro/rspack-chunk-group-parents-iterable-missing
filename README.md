@@ -1,6 +1,6 @@
 # Rspack `ChunkGroup.parentsIterable` is missing
 
-Minimal reproduction for ISSUE_URL. A webpack 5 plugin that iterates `chunkGroup.parentsIterable` works under webpack 5.112.2 and throws `TypeError: group.parentsIterable is not iterable` under `@rspack/core` 2.3.2.
+Minimal reproduction for https://github.com/web-infra-dev/rspack/issues/16661. A webpack 5 plugin that iterates `chunkGroup.parentsIterable` works under webpack 5.112.2 and throws `TypeError: group.parentsIterable is not iterable` under `@rspack/core` 2.3.2.
 
 Versions: `@rspack/core` 2.3.2, `webpack` 5.112.2, Node.js 24.21.0, pnpm 12.21.0 (`packageManager`).
 
